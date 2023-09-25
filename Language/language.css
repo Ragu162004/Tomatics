@@ -1,0 +1,84 @@
+
+body
+{
+background:#fff;
+background-repeat:no-repeat;
+padding:0px;
+margin:0px;
+background-size:cover;
+background-position: center;
+height: 100vh;
+}
+.tit
+{
+font-size:250%;
+text-align:center;
+background:rgba(0,255,0,0.2);
+color:#000;
+font-weight:bold;
+padding:1%;
+font-family: Verdana,sans-serif;
+box-shadow: 0 0 10px #000;
+}
+.language-box-position
+{
+position:relative;
+justify-content:center;
+display:flex;
+top:10%;
+}
+h1
+{
+font-size:110%;
+padding:2px;
+margin:0%;
+font-family:sans-serif;
+text-shadow:0px 2px grey;
+}
+p
+{
+color: rgb(75, 74, 74);
+margin:0%;
+}
+p a{
+    color: #000;
+    text-decoration: none;
+}
+p:hover
+{
+font-weight:bold;
+background-color:#baf2ba;
+border-radius:8px;
+width: 100%;
+cursor: pointer;
+transform: scale(0.9);
+}
+
+.button
+{
+color:#FFFF00;
+font-weight:bold;
+font-family:Arial;
+}
+.button:hover
+{
+cursor:pointer;
+background-color:rgba(00,00,255,0.2);
+border-radius:10px;
+}
+.language-box
+{
+font-size:160%;
+border-radius:10px;
+border: 2px solid grey;
+background-color:transparent;
+backdrop-filter:blur(20px);
+text-align:center;
+padding:2%;
+width:22%;
+box-shadow: 0 0 10px #000;
+}
+.image-initial
+{
+background-image:url("tomatoes-on-a-transparent-background-free-png.webp");
+}

@@ -1,0 +1,55 @@
+<html>
+<link href="language.css" rel="stylesheet">
+<script>
+let a=1;
+function languageToState()
+{
+if(a==1)
+{
+document.getElementById("name1").innerHTML = "TamilNadu";
+document.getElementById("name2").innerHTML = "Kerala";
+document.getElementById("name3").innerHTML = "Karnataka";
+document.getElementById("name4").innerHTML = "Andhra / Telungana";
+document.getElementById("name5").innerHTML = "Delhi";
+document.getElementById("name6").innerHTML = "English (USA)";
+document.getElementById("button").innerHTML = "Select your State";
+a=0;
+}
+else if(a==0)
+{
+document.getElementById("name1").innerHTML = "Tamil";
+document.getElementById("name2").innerHTML = "Malayalam";
+document.getElementById("name3").innerHTML = "Kannada";
+document.getElementById("name4").innerHTML = "Telugu";
+document.getElementById("name5").innerHTML = "Hindi";
+document.getElementById("name6").innerHTML = "English";
+document.getElementById("button").innerHTML = "Change From Language To State";
+a=1;
+}
+}
+</script>
+<head>
+<title>TOMATIX</title>
+</head>
+<body>
+<div class="tit">
+<img src="download-removebg-preview.png" height="5%" style="padding:0%;margin:0%;float:left;"/>
+TOMATIX
+</div>
+<div class="language-box-position">
+<div class="language-box">
+<h1>Choose Your Language</h1>
+<br>
+<p id="name1" onmouseenter="tamilChange()" onmouseout="appleChange()">Tamil</p><br>
+<p id="name2" onmouseenter="malayalamChange()" onmouseout="appleChange()">Malayalam</p><br>
+<p id="name3" onmouseenter="kannadaChange()" onmouseout="appleChange()" >Kannada</p><br>
+<p id="name4" onmouseenter="teluguChange()" onmouseout="appleChange()">Telugu</p><br>
+<p id="name5" onmouseenter="hindiChange()" onmouseout="appleChange()">Hindi</p><br>
+<p id="name6"><a href="C:/Users/Kavin M/Desktop/Tomatics/Login and sign up/Home.html">English</a></p><br>
+<div id="button" class="button"onclick="languageToState()">Change From Language To State</div>
+</div>
+</div>
+
+
+</body>
+</html>
